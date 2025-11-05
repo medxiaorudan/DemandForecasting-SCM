@@ -1,0 +1,5 @@
+eval:
+  model: "exp_smoothing"
+  horizon: 14
+  max_wape: 0.35   # CI gate threshold: fail if WAPE > 0.35
+  item_id: "SKU1"
